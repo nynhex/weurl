@@ -1,24 +1,9 @@
-# README
+#### weurl.xyz
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The goals of this project:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* URL shortening with zero race condition
+* Do not use any gems to generate the slug
+* Provide tracking via IP in the request cycle and extract agent info
+* Provide a profile for users to manage their links and change slug urls
+* Do I need anything else?  Doubtful.  Less is more
